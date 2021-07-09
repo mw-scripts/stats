@@ -4,9 +4,11 @@ It supports sending messages to **Discord** and **Twitter**, with site stats (# 
 
 ### Examples
 **Site statistics**:
+
 ![Twitter message of site statistics](./examples/twitter-site-stats.png)
 
 **Stubs**:
+
 ![Discord message of stubs](./examples/discord-stubs.png)
 
 ### Installation
