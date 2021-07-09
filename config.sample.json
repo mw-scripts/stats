@@ -1,0 +1,29 @@
+{
+  "site_name": "Cool Wiki",
+  "api_url": "https://community.fandom.com/api.php",
+  "base_url": "https://community.fandom.com/wiki",
+  "stubs_category": "Category:Stubs",
+  "providers": {
+    "discord": {
+      "enabled": true,
+      "webhook": "",
+      "schedule": {
+        "site_stats": "1w",
+        "stubs": "1d"
+      }
+    },
+    "twitter": {
+      "enabled": false,
+      "auth": {
+        "consumer_key": "",
+        "consumer_secret": "",
+        "access_token_key": "",
+        "access_token_secret": ""
+      },
+      "schedule": {
+        "site_stats": "1w",
+        "stubs": "1d"
+      }
+    }
+  }
+}

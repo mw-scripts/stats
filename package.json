@@ -1,0 +1,30 @@
+{
+  "name": "stats",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Script to periodically send wiki statistics to an array of providers.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mw-scripts/stats.git"
+  },
+  "keywords": [
+    "mediawiki",
+    "stats"
+  ],
+  "author": "Lavya Gupta",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mw-scripts/stats/issues"
+  },
+  "homepage": "https://github.com/mw-scripts/stats#readme",
+  "dependencies": {
+    "@lavgup/mediawiki.js": "^1.2.2",
+    "got": "^11.8.2",
+    "toad-scheduler": "^1.4.0",
+    "twitter-lite": "^1.1.0"
+  }
+}
